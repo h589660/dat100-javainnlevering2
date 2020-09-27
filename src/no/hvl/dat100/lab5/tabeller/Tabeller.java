@@ -110,24 +110,35 @@ public class Tabeller {
 		
 		return tabell;
 }
-/*	// g)
-	public static boolean erSortert(int[] tabell) {
-		boolean sortert=true;
-		int i=1;
-		while (sortert && i<tabell.length) {
-			if (tabell[i-1] <= tabell[i])
-				i++;
-			else 
-				sortert = false;
-		}
-	if (!sortert);
-		return sortert;
-	}
+	// g)
+/*
+	public static int[] reverser(int[] tabell) {
+        for(int i=0; i<tabell.length/2; i++){
+               int j = tabell[i];
+               tabell[i] = tabell[tabell.length -i -1];
+               tabell[tabell.length -i -1] = j;
+           }
+        int[] tabell2 = tabell;
+        return tabell2;
+   }
 */
+	
 	// h)
+/*
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
+        int lengde = tabell1.length + tabell2.length;
+        int[] tabell = new int[lengde];
+        for (int i = 0; i < tabell1.length; i++) {
+            tabell[i] = tabell1[i];
+        }
+        for (int j = 0; j < tabell2.length; j++) {
+            tabell[tabell1.length + j] = tabell2[j];
+        }
+        return tabell;
 
-		// TODO
-		throw new UnsupportedOperationException("settSammen ikke implementert");
-	}
+
+
+    }
 }
+*/
+

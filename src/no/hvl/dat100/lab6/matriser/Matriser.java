@@ -5,14 +5,12 @@ public class Matriser {
 	// a)		
 /*
  public static void skrivUt(int[][] matrise) {
-			String skrivUt = "";
-			for (int i = 0; i < matrise.length; i++) {
-				for (int j = 0; j < matrise[i].length; j++) {
-					skrivUt += (matrise[i][j] + " ");
-				}
+		for (int[] i : matrise) {
+			for( int j : i) {
+				System.out.println(j + " ");
+			}
 		}
-		System.out.println(skrivUt);
-		}
+	}
 */
 	// b)
 /*
@@ -62,8 +60,7 @@ public class Matriser {
 
 	public static int[][] speile(int[][] matrise) {
 
-		// TODO
-		throw new UnsupportedOperationException("speile ikke implementert");
+		
 	
 	}
 
